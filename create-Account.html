@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear cuenta</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/form-Account.css">
+</head>
+
+<body>
+
+    <section class="container mt-5  shadow">
+        <div class="row align-items-stretch">
+            <!-- img -->
+            <div class="col col-md-5 col-lg-5 col-xl-6 img-logeo d-md-none d-lg-block  d-none d-sm-block">
+                <h2></h2>
+                <div class="img-logeo_vc"></div>
+            </div>
+            <!-- form -->
+            <div class="col p-5">
+                <!--  -->
+                <div class="text-center border-bottom border-primary border-2"  >
+                    <img src="./IMG/DAYCODE-nav.png" class="img-fluid mb-2 " alt="">
+                </div>
+                <!--  -->
+                <h2 class="fw-bl text-center pt-4 mb-4">Crear una cuenta</h2>
+
+                <!-- form -->
+                <form action="">
+                    
+                    <div class="mb-4">
+                        <label for="text" class="form-label" >Nombre</label>
+                        <input type="text" name="Nombre" id="" class="form-control" placeholder="Nombre" required >
+                    </div>
+                    <div class="mb-4">
+                        <label for="text" class="form-label">Apellido Paterno</label>
+                        <input type="text" name="Nombre" id="" class="form-control" placeholder="Nombre">
+                    </div>
+                    <div class="mb-4">
+                        <label for="text" class="form-label">Apellido Materno</label>
+                        <input type="text" name="apellidoM" id="" class="form-control" placeholder="Nombre">
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="date">Fecha de Naciemiento</label>
+                        <input type="date" name="fecha-nacimiento" id="" class="form-control" required>
+                    </div>
+
+                    <div class="mb-4">
+                       <label for="email" class="form-label"> Correo Electronico</label>
+                       <input type="email" name="correo-electronico" class="form-control" placeholder="Escribe tu correo" required id="">
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="password">Contraseña</label>
+                        <input type="password" name="contraseña" class="form-control" placeholder="Escribe tu contraseña" required id="">
+                    </div>
+
+                    <div class="mb-5">
+                        <input type="checkbox" name="conected" class="form-check-input " id="" required>
+                        <label for="conected" class="form-check-label">Matenerme conectado</label>
+                    </div>
+
+                    <div class="d-grid">
+                        <a href="" type="submit" class="btn btn-primary">Crear cuenta</a>
+                    </div>
+
+                    <div class="my-5">
+                        <!--usuario -->
+                        <p class="text-center ">¿Ya tienes una cueta? <a href=""> ir </a></p> 
+                        <p class="text-center "><a href="">Recuperar conraseña </a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Bp-js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+</html>

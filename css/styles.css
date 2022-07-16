@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* var */
+:root{
+ --color-primary:#0066FF;
+ --color-third: #939393
+}
+
+/* navbar */
+.navbar-brand>img {
+  width: 180px;
+}
+
+.navbar-main {
+  height: 100px;
+}
+
+.navbar-main .active {
+  text-decoration: underline wavy var(--color-primary);
+  text-underline-offset: 9px;
+}
+
+.nav-link_n {
+  color: #000;
+}
+
+.nav-link_btn {
+  border: 1px solid black;
+}
+
+.nav-link_btn-up {
+  background: blue;
+  color: #fff;
+}
+/* prom-img */
+.prom{
+  margin-top: 8rem;
+  /* width: 1300px; */
+}
+.prom-img{
+ width: 100%;
+ 
+}
+
+/* header */
+.header-img {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.header-desc {
+  width: 50%;
+  height: 5em;
+  position: absolute;
+  top: 10em;
+  left: 15rem;
+  text-align: start;
+  color: aliceblue;
+}
+
+.hader-desc_BTN {
+  padding: 10px;
+  background-color: #2e518b;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.hader-desc_BTN:hover {
+  background-color: aqua;
+}
+
+/* daycode */
+
+.daycode {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.daycode-img {
+  padding: 2em;
+}
+
+/* Services */
+.cards-serv {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.card-serv {
+  text-align: center;
+  margin: 1.4em;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
+  height: 300px;
+}
+
+.card-serv_img {
+  padding: 1.5em;
+}
+
+.card_img{
+  width: 80px;
+  height: 80px;
+  background: tomato;
+  border-radius: auto;
+
+}
+
+.card-serv_desc {
+  text-align: center;
+  padding: auto;
+  margin: 0.2em;
+
+}
+
+.card-serv_title h4 {
+  font-size: 1rem;
+  margin-top: 1em;
+}
+
+.card-serv_txt p {
+  font-size: 0.9em;
+}
+
+/* Section team*/
+.team {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin: 2em;
+}
+
+.team-card {
+  margin: 1em;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.team-card_img {
+  width: 70%;
+  padding: 2em;
+}
+
+.coders-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  height: 5em;
+}
+
+.coders-media_link {
+  text-decoration: none;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 1em;
+  margin-top: 5px;
+}
+
+/* day academy */
+.Academy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Academy-img {
+  height: 30vh;
+}
+
+.Academy-desc {
+  text-align: start;
+}
+
+.fondo {
+  background-image: url(../IMG/footer-wave.svg);
+  background-repeat: no-repeat;
+  height: 20vh;
+
+}
+
+
+/* slider-comments */
+.title-coments {
+  text-align: center;
+}
+
+.testimonial-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 500px; */
+  /* background: linear-gradient(-150deg, white 50%, rgba(0, 136, 169, 1) 40%); */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.img-text-sl {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.img-text-sl h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.img-text-sl p {
+  font-size: 14px;
+}
+
+.single-box {
+  background: tomato;
+  border-radius: 5%;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Section recomend */
+.card-text_p{
+  font-size: 15px;
+  color: var(--color-third);
+  padding: 0.3em;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+.card-Rc_img{
+  width: 100%;
+}
+
+.card-Rc{
+  width: 354px;
+  height: 238px;
+}
+
+.card-precio{
+  font-size: 15px;
+  font-weight: 100;
+  color: var(--color-third);
+  text-decoration: line-through;
+}
+
+.card-txt_cost{
+  color: #000;
+}
+
+.card-txt_divi{
+  font-size: 10px;
+  color: var(--color-third);
+}
+
+
+
+input:invalid {
+  border-color: #DD2C00;
+}
+
+#notify {
+margin-top: 5px;
+padding: 10px;
+font-size: 12px;
+width: 100%;
+color: #fff;
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+}
+
+#notify.error {
+background-color: #DD2C00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* section day coders */
+
+.coder{
+  background:tomato;
+  border-radius: 10px;
+}
+
+
+.coders-img{
+  text-align: center;
+  padding: 20px;
+}
+
+.coders-img_picture{
+  width: 60%; 
+}
+
+.coder-social{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #000;
+  height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Servicios */
+
+.box-container {
+  background-color: rgba(232, 232, 232, 1);
+  width: 90%;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.desc-initial {
+  font-size: 20px;
+  text-align: justify;
+  font-weight: 600;
+  padding: 40px;
+}
+
+.desc-initial h1 {
+  font-weight: bold;
+}
+
+.flex-box {
+
+  display: flex;
+  margin: auto;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  overflow: hidden;
+
+}
+
+.box-serv-logo {
+  width: 20%;
+  min-width: 10%;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  text-align: center;
+  overflow: hidden;
+
+  padding: 20px;
+
+}
+
+.box-serv-logo .icon {
+  justify-content: center;
+}
+
+.box-serv-desc {
+  display: grid;
+  width: 80%;
+  min-width: 50%;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  overflow: hidden;
+}
+
+/* ====================================== */
+/* Formulario */
+/* Contenedor */
+.form {
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  margin: auto;
+  width: 100%;
+  /* max-width: 400px; */
+  border-radius: 40px;
+  box-shadow: 0 5px 10px -5px rgb(0 0 0 / 80%);
+  overflow: hidden;
+}
+
+/* Contenedor de boxes-flex */
+.form-container {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: end;
+  overflow: hidden;
+}
+
+/* Boxes */
+.form-group {
+  overflow: hidden;
+  width: 38%;
+  min-width: 200px;
+  padding: 15px 0px;
+}
+
+/* Inputs */
+.form-input {
+  background: none;
+  color: #706c6c;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #5757577e;
+}
+
+/* Select */
+.b-select {
+  flex-basis: 80%;
+}
+
+/* TextArea */
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  width: 100%;
+}
+
+/* Box TextArea */
+.b-t-area {
+  margin: 20px auto;
+  width: 80%;
+}
+
+/* Title */
+.form-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: .5em;
+  margin: 15px auto 15px auto;
+}
+
+/* BTN sumbit */
+.form-submit {
+  background-color: #3866f2;
+  width: 300px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: .8em 0;
+  border: none;
+  border-radius: .5em;
+  margin: 20px auto;
+}
+
+
+/* --- */
+/* Box select > select*/
+.content-select select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* Herramienta select */
+.content-select select::-ms-expand {
+  display: none;
+}
+
+/* Box select */
+.content-select {
+  margin: 20px auto;
+  max-width: 100%;
+  position: relative;
+}
+
+/* Box select > select --Dispoiciones-- */
+.content-select select {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 7px 10px;
+  height: 42px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background: rgba(240, 240, 245, 1);
+  color: black;
+  font-size: 1em;
+
+  font-family: 'Roboto', sans-serif;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  position: relative;
+  transition: all 0.25s ease;
+}
+
+/* Box select > select --Efecto HOVER-- */
+.content-select select:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+/* Elemento desplegable */
+.content-select i {
+  position: absolute;
+  right: 20px;
+  top: calc(50% - 13px);
+  width: 16px;
+  height: 16px;
+  display: block;
+  border-left: 4px solid rgba(76, 76, 82, 1);
+  border-bottom: 4px solid rgba(76, 76, 82, 1);
+  transform: rotate(-45deg);
+  /* Giramos el cuadrado */
+  transition: all 0.10s ease;
+}
+
+/*  Box select > select: i --Efecto HOVER--  */
+.content-select:hover i {
+  margin-top: 3px;
+}
+
+
+
+/*/////////////////////////////*/
+.txt-anuncio{
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.shadow-img{
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,1);
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,1);
+}
+
+.h5-styles{
+  font-size: 25px;
+}
+
+.enlace-desc{
+  text-decoration: none;
+  color: white;
+}
+
+.enlace-desc:hover{
+  color: white;
+  font-weight: bolder;
+}
+
+.img-styles{
+  max-width: 330px;
+  max-height: 220px;
+  width: auto;
+  height: auto;
+}

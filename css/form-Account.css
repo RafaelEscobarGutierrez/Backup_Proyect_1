@@ -1,0 +1,26 @@
+* ,
+*::after,
+*::before
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.img-logeo{
+    background-image: linear-gradient(201.8deg, rgba(0, 102, 255, 0.7) 4.83%, rgba(255, 255, 255, 0.7) 107.75%);
+    color: white;
+}
+
+.img-logeo_vc{
+    background-image: url(../IMG/icons/future.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height:80%;    
+}
+
+
+
+
+
